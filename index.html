@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TheCodingEagle</title>
+  <link rel="stylesheet" href="navbar/style.css">
+  <link rel="stylesheet" href="sidebar/style.css">
+  <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="dark-mode">
+  <header>
+    <div class="navbar">
+
+      <select name="selectCourse" class="select">
+        <option value="select" class="options" selected>SELECT COURSE</option>
+        <option value="fullstack" class="options">FULLSTACK</option>
+        <option value="frontend" class="options">FRONTEND</option>
+      </select>
+
+      <h1 class="tittle">THE CODING EAGLE</h1>
+
+    </div>
+  </header>
+
+  <main>
+
+    <div class="sidebar">
+
+      <label for="checkIconMenu" class="iconMenu">
+        <i class='bx  bx-menu' id="iconMenu" ></i>
+      </label>
+      <input type="checkbox" id="checkIconMenu" class="checkbox">
+      <div class="container">
+
+        <label for="checkIconX" class="iconX display-none">
+          <i class='bx  bx-x' id="iconX" ></i>
+        </label>
+        <input type="checkbox" id="checkIconX" class="checkbox">
+      </div>
+
+    </div>
+  </main>
+  <script src="navbar/script.js"></script>
+  <script src="sidebar/app.js"></script>
+</body>
+</html>

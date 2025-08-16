@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(45, 17, 6);
+  height: 40px;
+}
+
+.dark-mode{
+  background-color: black;
+  color: white;
+}
+
+
+.tittle{
+  color: wheat;
+}
+
+.select{
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  background-color: transparent;
+  height: 40px;
+  border-radius: 10px;
+  color: wheat;
+  padding: 10px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.1);
+  outline: none;
+  cursor: pointer;
+}
+
+.options{
+  background-color: black;
+  color: wheat;
+}
